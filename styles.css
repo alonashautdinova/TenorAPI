@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#main-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 2vh;
+  margin: 3vh;
+}
+.title {
+  text-align: center;
+}
+
+input {
+  padding: 0.5vh 1vh;
+}
+.submit {
+  cursor: pointer;
+}
+.gif-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vh;
+}
